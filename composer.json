@@ -1,0 +1,21 @@
+{
+    "name": "bigfoot/cron-bundle",
+    "type": "symfony-bundle",
+    "description": "Bigfoot cron management bundle",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guillaume Manen",
+            "email": "g.manen@c2is.fr"
+        }
+    ],
+    "require": {
+        "bigfoot/core-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Bigfoot\\Bundle\\CronBundle": "" }
+    },
+    "target-dir": "Bigfoot/Bundle/CronBundle",
+    "minimum-stability": "dev"
+}
